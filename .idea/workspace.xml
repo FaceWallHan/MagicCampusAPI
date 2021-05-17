@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="magiccampus" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd03b5a5-5024-4556-b763-a996b15bcb9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MagicCampusAPI_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MagicCampusAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/QueryAdministratorScheduleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/QueryStudentScheduleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/worker/QueryTypeWorkerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MagicCampus_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/magiccampus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/magiccampus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/.idea/MagicCampus.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/magiccampus.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/AdministratorServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/AnnouncementServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/BaseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/DeleteServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/RepairAreaServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/RepairListServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/RepairPhotoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/RepairProjectServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/RepairUploadServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/ShowRepairServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/UpdateAdministratorOneServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/UpdateAdministratorTwoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/UpdateImageServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/UpdateScheduleStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/UpdateStudentOneServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/UpdateStudentTwoServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/ViewAdministratorServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/ViewRepairServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/controller/ViewStudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/AdministratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/AnnouncementDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/BaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/RepairAreaDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/RepairDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/RepairProjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/impl/AdministratorDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/impl/AnnouncementDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/impl/RepairAreaDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/impl/RepairDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/impl/RepairProjectDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/dao/impl/StudentDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/entity/Administrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/entity/Announcement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/entity/ImageHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/entity/ImageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/entity/Repair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/entity/RepairArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/entity/RepairProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/AdministratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/AnnouncementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/RepairAreaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/RepairProjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/RepairService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/impl/AdministratorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/impl/AnnouncementServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/impl/RepairAreaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/impl/RepairProjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/impl/RepairServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/util/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/util/OtherUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/util/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/java/com/hss/campus/util/ResultCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicCampus/src/test/java/com/hss/campus/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagicCampus_war_exploded/WEB-INF/classes/META-INF/MagicCampus.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagicCampus_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MagicCampus_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/administrator/AdministratorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/administrator/AdministratorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/administrator/UpdateAdministratorOneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/administrator/UpdateAdministratorOneServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/student/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/student/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/student/UpdateStudentOneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/student/UpdateStudentOneServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/student/UpdateStudentTwoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/personnel/student/UpdateStudentTwoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/AnnouncementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/AnnouncementServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/RepairListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/RepairListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/UpdateImageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/UpdateImageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/ViewAdministratorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/ViewAdministratorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/ViewStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/announcement/ViewStudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/form/RepairPhotoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/form/RepairPhotoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/form/RepairUploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/form/RepairUploadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/UpdateAppraiseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/UpdateAppraiseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/UpdateDispatchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/UpdateDispatchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/UpdateFinishedServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/UpdateFinishedServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/UpdateSignServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/schedule/UpdateSignServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/worker/DeleteWorkerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/worker/DeleteWorkerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/worker/QueryRepairWorkerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/controller/repair/worker/QueryRepairWorkerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/dao/AdministratorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/dao/AdministratorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/dao/AnnouncementDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/dao/AnnouncementDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/dao/RepairDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/dao/RepairDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/dao/RepairProjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/dao/RepairProjectDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/dao/RepairWorkerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/dao/RepairWorkerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/dao/impl/AdministratorDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/dao/impl/AdministratorDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/dao/impl/RepairDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/dao/impl/RepairDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/dao/impl/RepairProjectDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/dao/impl/RepairProjectDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/dao/impl/RepairWorkerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/dao/impl/RepairWorkerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/entity/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/entity/Repair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/entity/RepairWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/entity/RepairWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/service/RepairService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/service/RepairService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/service/RepairWorkerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/service/RepairWorkerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/service/impl/RepairServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/service/impl/RepairServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/service/impl/RepairWorkerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/service/impl/RepairWorkerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hss/campus/util/OtherUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hss/campus/util/OtherUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1sZ6KUhYazqEDSbYOkF0C7TV9oa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/hss/campus" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hss.campus.controller.repair.schedule" />
+      <recent name="com.hss.campus.controller.repair.worker" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\MagicCampusAPI\src\com\hss\campus" />
+      <recent name="D:\IdeaProjects\MagicCampusAPI\src\com\hss\campus\dao" />
+      <recent name="D:\IdeaProjects\MagicCampusAPI\src" />
+      <recent name="D:\IdeaProjects\MagicCampusAPI\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="MagicCampusAPI:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/magiccampus" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_37_MagicCampusAPI_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64544" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="MagicCampusAPI:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621139877506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1621139877506" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1621166504961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1621166504961" />
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1621174554108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621174554108" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1621174554108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621174554108" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1621174554108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621174554108" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1621174554108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621174554108" />
+    <state width="1493" height="198" key="GridCell.Tab.1.bottom" timestamp="1621174554109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621174554109" />
+    <state width="1493" height="198" key="GridCell.Tab.1.center" timestamp="1621174554108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621174554108" />
+    <state width="1493" height="198" key="GridCell.Tab.1.left" timestamp="1621174554108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621174554108" />
+    <state width="1493" height="198" key="GridCell.Tab.1.right" timestamp="1621174554109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621174554109" />
+    <state width="1493" height="198" key="GridCell.Tab.2.bottom" timestamp="1621174554109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621174554109" />
+    <state width="1493" height="198" key="GridCell.Tab.2.center" timestamp="1621174554109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1621174554109" />
+    <state width="1493" height="198" key="GridCell.Tab.2.left" timestamp="1621174554109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1621174554109" />
+    <state width="1493" height="198" key="GridCell.Tab.2.right" timestamp="1621174554109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1621174554109" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1621068832271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621068832271" />
+    <state x="468" y="115" width="673" height="688" key="find.popup" timestamp="1621166490165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="115" width="673" height="688" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1621166490165" />
+  </component>
+</project>

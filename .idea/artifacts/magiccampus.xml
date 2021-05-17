@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="magiccampus">
+    <output-path>$PROJECT_DIR$/out/artifacts/magiccampus</output-path>
+    <root id="archive" name="magiccampus.war">
+      <element id="artifact" artifact-name="MagicCampusAPI:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
