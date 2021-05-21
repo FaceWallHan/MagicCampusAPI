@@ -13,6 +13,7 @@ import java.io.IOException;
 
 
 public  abstract class BaseRecordServlet extends HttpServlet {
+    public UnitService unitService=new UnitServiceImpl();
     public RepairService repairService = new RepairServiceImpl();
     public RepairRecordService recordService=new RepairRecordServiceImpl();
     public RepairWorkerService workerService=new RepairWorkerServiceImpl();

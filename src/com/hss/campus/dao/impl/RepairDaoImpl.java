@@ -2,6 +2,7 @@ package com.hss.campus.dao.impl;
 
 import com.hss.campus.dao.BaseDao;
 import com.hss.campus.dao.RepairDao;
+import com.hss.campus.entity.DayRepairNum;
 import com.hss.campus.entity.Repair;
 import com.hss.campus.entity.RepairWorker;
 import com.hss.campus.util.OtherUtil;
@@ -13,6 +14,9 @@ public class RepairDaoImpl extends BaseDao implements RepairDao {
     //报修上传
     @Override
     public int insert(Repair repair) {
+        if ("".equals(repair.getDate())){
+            repair.setDate(OtherUtil.getOneDayByDistance(0));
+        }
         String sql="INSERT INTO `smartcampus` .`repair` " +
                 "(`s_id`,`repairArea`, `repairProject`, `phone`, `date`, `time`, `content`,image,schedule,address) " +
                 "VALUES (?,?,?,?,?,?,?,?,?,?)";
@@ -78,6 +82,47 @@ public class RepairDaoImpl extends BaseDao implements RepairDao {
         return queryForOne(RepairWorker.class, sql, repairId);
     }
 
+    @Override
+    public Long queryRepairNum(String day){
+        Long num;
+        String sql;
+        if ("".equals(day)){
+            String time=OtherUtil.getNowTime("yyyy-MM-dd");
+            sql="select count(*) from repair where date=?";
+            num=(Long) queryForSimpleValue(sql, time);
+        }else {
+            sql="select count(*) from repair";
+            num=(Long) queryForSimpleValue(sql);
+        }
+        return num;
+    }
+
+    @Override
+    public List<Repair> queryRepairListByArea(String area) {
+        String sql ="select * from repair where repairarea =? order by date desc";
+        return queryForList(Repair.class, sql, area);
+    }
+
+    @Override
+    public Long queryBeforeWeek(String day) {
+        String sql="select count(*) from repair where date=?";
+        return (Long) queryForSimpleValue(sql, day);
+    }
+
+    @Override
+    public List<Repair> getRepairListByToday() {
+        String day = OtherUtil.getOneDayByDistance(0);
+        String sql="select * from repair where date= ?";
+        return queryForList(Repair.class, sql, day);
+    }
+
+    @Override
+    public String getUnitNameByRepairId(Integer repairId) {
+        String sql="select name from repair_uint where unit_id=" +
+                "(select unit from repairworker where name=" +
+                "(select worker FROM `repair` WHERE id=?))";
+        return (String) queryForSimpleValue(sql, repairId);
+    }
 
 
 }

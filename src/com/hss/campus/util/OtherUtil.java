@@ -50,4 +50,13 @@ public class OtherUtil {
         Date date=new Date(System.currentTimeMillis());
         return sdf.format(date);
     }
+    public static String getOneDayByDistance(int distance){
+        String oneDay="";
+        if (distance>-1){
+            Date today = new Date(System.currentTimeMillis() - 1000 * 60 * 60 * 24*distance);
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            oneDay = simpleDateFormat.format(today);//获取某天天日期
+        }
+        return oneDay;
+    }
 }

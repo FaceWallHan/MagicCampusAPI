@@ -64,4 +64,30 @@ public class RepairServiceImpl implements RepairService {
     public RepairWorker queryWorker(Integer repairId) {
         return dao.queryWorker(repairId);
     }
+
+    @Override
+    public  Long queryRepairNum(String day) {
+        return dao.queryRepairNum(day);
+    }
+
+    @Override
+    public List<Repair> queryRepairListByArea(String area) {
+        return dao.queryRepairListByArea(area);
+    }
+
+    @Override
+    public Long queryBeforeWeek(String day) {
+        return dao.queryBeforeWeek(day);
+    }
+
+    @Override
+    public List<Repair> getRepairListByToday() {
+        return dao.getRepairListByToday();
+    }
+
+    @Override
+    public String getUnitNameByRepairId(Integer repairId) {
+        return dao.getUnitNameByRepairId(repairId);
+    }
+
 }

@@ -22,13 +22,16 @@ public class UpdateFinishedServlet extends BaseRecordServlet {
         if (!repairWorker.isNull()){
             String name = repairWorker.getName();
             String phone = repairWorker.getPhone();
+            //根据订单id为维修单位的维修数量+1
+            String unitName = repairService.getUnitNameByRepairId(repairId);
+            boolean finished = unitService.UpdateFinished(unitName);
             //插入受理记录
             boolean insert  = recordService.insertRecord(name, OtherUtil.REPAIR_SCHEDULE[3], repairId,phone);
             //维修订单已受理
             boolean update = repairService.updateStatus(repairId, OtherUtil.REPAIR_STATUS[3]);
             //更新维修工的状态
             boolean workerStatus = workerService.updateWorkerStatus(OtherUtil.REPAIR_WORKER_STATUS[1], name, phone);
-            if (insert&&update&workerStatus){
+            if (insert&&update&workerStatus&finished){
                 response.setCode(ResultCode.SUCCESS.code());
                 response.setStatus(ResultCode.SUCCESS.status());
             }else {

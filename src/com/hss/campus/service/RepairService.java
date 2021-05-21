@@ -23,4 +23,10 @@ public interface RepairService {
     boolean insertWorker(String name,Integer repairId);
 
     RepairWorker queryWorker(Integer repairId);
+    Long queryRepairNum(String day);
+    List<Repair> queryRepairListByArea(String area);
+    Long queryBeforeWeek(String day);
+    List<Repair> getRepairListByToday();
+
+    String getUnitNameByRepairId(Integer repairId);
 }

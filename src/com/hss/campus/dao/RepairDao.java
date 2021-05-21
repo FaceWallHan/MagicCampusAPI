@@ -1,5 +1,6 @@
 package com.hss.campus.dao;
 
+import com.hss.campus.entity.DayRepairNum;
 import com.hss.campus.entity.Repair;
 import com.hss.campus.entity.RepairWorker;
 
@@ -22,4 +23,13 @@ public interface RepairDao {
 
     int insertWorker(String name,Integer repairId);
     RepairWorker queryWorker(Integer repairId);
+
+    Long queryRepairNum(String day);
+
+    List<Repair> queryRepairListByArea(String area);
+    //查询前6天的记录数量
+    Long queryBeforeWeek(String day);
+
+    List<Repair> getRepairListByToday();
+    String getUnitNameByRepairId(Integer repairId);
 }

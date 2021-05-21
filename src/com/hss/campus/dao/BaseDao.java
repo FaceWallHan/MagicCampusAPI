@@ -44,7 +44,7 @@ public  abstract class BaseDao {
         }
     }
     public Object queryForSimpleValue( String sql, Object ... args){
-        Connection connection = null;
+        Connection connection;
         try {
             connection = DBUtil.getConnection();
             return runner.query(connection, sql, new ScalarHandler<>(),args);
