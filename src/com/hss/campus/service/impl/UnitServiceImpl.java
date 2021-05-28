@@ -27,6 +27,11 @@ public class UnitServiceImpl implements UnitService {
 
     @Override
     public boolean UpdateFinished(String unit) {
-        return dao.queryUnitFinishNum(unit)!=-1;
+        return dao.UpdateFinished(unit)!=-1;
+    }
+
+    @Override
+    public Integer queryIdByName(String name) {
+        return dao.queryIdByName(name);
     }
 }

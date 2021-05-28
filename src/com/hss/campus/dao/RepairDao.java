@@ -32,4 +32,9 @@ public interface RepairDao {
 
     List<Repair> getRepairListByToday();
     String getUnitNameByRepairId(Integer repairId);
+
+    Long getRepairNum(String area);
+    Long getRepairOtherNum(String area);
+    //报修上传
+    int insertByCode(Repair repair);
 }

@@ -2,6 +2,9 @@ package com.hss.campus.entity;
 
 public class Repair {
     private Integer id;
+    private Integer deviceId;
+
+
     private Integer s_id;
     private String repairArea;
     private String repairProject;
@@ -13,6 +16,15 @@ public class Repair {
     private String schedule;
     private String address;
     private String appraise;
+    private String worker;
+
+    public Integer getDeviceId() {
+        return deviceId;
+    }
+
+    public void setDeviceId(Integer deviceId) {
+        this.deviceId = deviceId;
+    }
 
     public String getDescription() {
         return description;
@@ -32,7 +44,7 @@ public class Repair {
         this.worker = worker;
     }
 
-    private String worker;
+
 
     public String getAppraise() {
         return appraise;

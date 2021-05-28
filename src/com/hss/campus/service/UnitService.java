@@ -9,4 +9,5 @@ public interface UnitService {
     List<Unit> getAllUnit();
     Integer queryUnitFinishNum(String unit);
     boolean UpdateFinished(String unit);
+    Integer queryIdByName(String name);
 }

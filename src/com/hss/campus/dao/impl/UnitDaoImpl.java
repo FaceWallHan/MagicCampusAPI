@@ -29,4 +29,10 @@ public class UnitDaoImpl extends BaseDao implements UnitDao {
         String sql="UPDATE `smartcampus`.`repair_uint` SET finished_num=finished_num+1 WHERE (`name`=?)";
         return update(sql, unit);
     }
+
+    @Override
+    public Integer queryIdByName(String name) {
+        String sql="select unit_id from repair_uint where name=?";
+        return (Integer) queryForSimpleValue(sql, name);
+    }
 }

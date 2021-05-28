@@ -6,6 +6,15 @@ public class RepairWorker {
     public boolean isNull(){
         return id==0||"".equals(name)||"".equals(phone)||"".equals(email)||"".equals(unit)||"".equals(status);
     }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
+    }
+
     public RepairWorker() {
     }
 

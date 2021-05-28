@@ -19,6 +19,7 @@ public  abstract class BaseRecordServlet extends HttpServlet {
     public RepairWorkerService workerService=new RepairWorkerServiceImpl();
     private final AdministratorService administratorService=new AdministratorServiceImpl();
     private final StudentService studentService=new StudentServiceImpl();
+    public DeviceService deviceService=new DeviceServiceImpl();
     public boolean existAdministrator(Integer id,String name){
         return administratorService.existAdministrator(id, name)!=null;
     }

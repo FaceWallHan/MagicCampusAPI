@@ -9,4 +9,5 @@ public interface UnitDao {
     List<Unit> getAllUnit();
     Integer queryUnitFinishNum(String unit);
     int UpdateFinished(String unit);
+    Integer queryIdByName(String name);
 }

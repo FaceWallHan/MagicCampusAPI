@@ -29,4 +29,9 @@ public interface RepairService {
     List<Repair> getRepairListByToday();
 
     String getUnitNameByRepairId(Integer repairId);
+    boolean insertByCode(Repair repair);
+
+
+    Long getRepairNum(String area);
+    Long getRepairOtherNum(String area);
 }

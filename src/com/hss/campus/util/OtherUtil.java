@@ -5,6 +5,7 @@ import com.hss.campus.entity.Announcement;
 import com.hss.campus.service.AdministratorService;
 import com.hss.campus.service.impl.AdministratorServiceImpl;
 
+import java.math.BigInteger;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -49,6 +50,9 @@ public class OtherUtil {
         SimpleDateFormat sdf=new SimpleDateFormat(format, Locale.CHINA);
         Date date=new Date(System.currentTimeMillis());
         return sdf.format(date);
+    }
+    public static BigInteger getPartNumber(){
+        return new BigInteger(getNowTime("yyyyMMddmmss"));
     }
     public static String getOneDayByDistance(int distance){
         String oneDay="";

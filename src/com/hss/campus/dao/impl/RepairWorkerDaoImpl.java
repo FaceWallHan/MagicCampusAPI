@@ -10,8 +10,8 @@ import java.util.List;
 public class RepairWorkerDaoImpl extends BaseDao implements RepairWorkerDao {
     @Override
     public int insert(RepairWorker worker) {
-        String sql="INSERT INTO repairworker (`name`, `phone`, `email`, `unit`, `status`) VALUES (?, ?, ?, ?, ?)";
-        return update(sql, worker.getName(),worker.getPhone(),worker.getEmail(),worker.getTypeWork(), OtherUtil.REPAIR_WORKER_STATUS[1].trim());
+        String sql="INSERT INTO repairworker (id,`name`, `phone`, `email`, `unit`, `status`) VALUES (?,?, ?, ?, ?, ?)";
+        return update(sql,worker.getId(), worker.getName(),worker.getPhone(),worker.getEmail(),worker.getTypeWork(), OtherUtil.REPAIR_WORKER_STATUS[1].trim());
     }
 
     @Override

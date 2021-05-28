@@ -90,4 +90,19 @@ public class RepairServiceImpl implements RepairService {
         return dao.getUnitNameByRepairId(repairId);
     }
 
+    @Override
+    public boolean insertByCode(Repair repair) {
+        return dao.insertByCode(repair)!=-1;
+    }
+
+    @Override
+    public Long getRepairNum(String area) {
+        return dao.getRepairNum(area);
+    }
+
+    @Override
+    public Long getRepairOtherNum(String area) {
+        return dao.getRepairOtherNum(area);
+    }
+
 }

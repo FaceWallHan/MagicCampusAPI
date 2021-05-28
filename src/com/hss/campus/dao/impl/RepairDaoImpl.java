@@ -124,5 +124,30 @@ public class RepairDaoImpl extends BaseDao implements RepairDao {
         return (String) queryForSimpleValue(sql, repairId);
     }
 
+    @Override
+    public Long getRepairNum(String area) {
+        String sql="select count(*) from repair where repairarea=? and `schedule` in (?)";
+        return (Long) queryForSimpleValue(sql,area, OtherUtil.REPAIR_STATUS[0]);
+    }
+
+    @Override
+    public Long getRepairOtherNum(String area) {
+        String sql="select count(*) from repair where repairarea=? and `schedule` in (?,?,?)";
+        return (Long) queryForSimpleValue(sql, area, OtherUtil.REPAIR_STATUS[1], OtherUtil.REPAIR_STATUS[2], OtherUtil.REPAIR_STATUS[5]);
+    }
+
+    @Override
+    public int insertByCode(Repair repair) {
+        if ("".equals(repair.getDate())) {
+            repair.setDate(OtherUtil.getOneDayByDistance(0));
+        }
+            String sql = "INSERT INTO `smartcampus` .`repair` " +
+                    "(`s_id`,`repairArea`, `repairProject`, `phone`, `date`, `time`, `content`,image,schedule,address,worker,device_id) " +
+                    "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
+            return update(sql, repair.getS_id(), repair.getRepairArea(), repair.getRepairProject(), repair.getPhone(),
+                    repair.getDate(), repair.getTime(), repair.getContent(), repair.getImage(), repair.getSchedule(), repair.getAddress()
+                    , repair.getWorker(), repair.getDeviceId());
+
+    }
 
 }
